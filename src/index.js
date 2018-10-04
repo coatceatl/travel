@@ -1,5 +1,14 @@
 import $ from 'jquery';
 import 'bootstrap';
 
-//import 'bootstrap/dist/css/bootstrap.min.css';
-console.log('webpack 4');
+import Swiper from 'swiper';
+
+$(document).ready(function() {
+  var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+});
