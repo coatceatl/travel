@@ -1,1 +1,31 @@
-
+.header {
+  padding-top: 30px;
+  padding-bottom: 29px;
+}
+.navbar-nav {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.nav-link {
+  color: #777;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+  text-decoration: none;
+  transition: 0.2s all ease-in;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 6px;
+  &:hover {
+    border-bottom: 1px solid #777;
+    padding-bottom: 2px;
+    color: #222;
+  }
+}
+.search {
+  color: #777;
+  &:hover {
+    color: #222;
+  }
+}
