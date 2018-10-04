@@ -4,7 +4,7 @@ body {
 
 .header {
   padding-top: 30px;
-  padding-bottom: 29px; }
+  padding-bottom: 50px; }
 
 .navbar-nav {
   width: 100%;
@@ -30,6 +30,27 @@ body {
   color: #777; }
   .search:hover {
     color: #222; }
+
+.header-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43.29px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  margin-bottom: 25px;
+  margin-top: 40px; }
+
+.header-subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 43.29px;
+  text-transform: uppercase;
+  letter-spacing: 0.68px;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  display: inline-block; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
