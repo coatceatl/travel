@@ -99,6 +99,24 @@ body {
 .slide-1 {
   background: url(img/slide-1.png) center center/cover no-repeat; }
 
+.filter {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ececec; }
+
+.filter-link {
+  font-size: 20px;
+  color: #777;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px; }
+  .filter-link:first-child {
+    margin-right: 70px; }
+  .filter-link:hover, .filter-link.active {
+    color: #222;
+    text-decoration: none; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
