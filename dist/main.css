@@ -150,7 +150,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 2.16px; }
+  letter-spacing: 1.62px; }
 
 .post-text {
   font-family: 'Playfair Display', serif;
@@ -170,6 +170,20 @@ body {
   letter-spacing: 0.53px; }
   .post-link:hover {
     color: #222; }
+
+.post-more {
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  padding: 16px 64px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.53px;
+  border: 2px solid #e0e0e0;
+  border-radius: 50px; }
+  .post-more:hover {
+    color: #222;
+    text-decoration: none; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
