@@ -1,0 +1,9 @@
+.post {
+  display: flex;
+  flex-direction: column;
+}
+.post-img {
+  & img {
+    width: 100%;
+  }
+}
