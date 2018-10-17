@@ -54,3 +54,20 @@
   letter-spacing: 0.63px;
   padding-bottom: 65px;
 }
+.footer-copyright {
+  font-family: 'Playfair Display', serif;
+  color: #888;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.53px;
+  align-items: center;
+  padding: 34px 0;
+  border-top: 2px solid #e0e0e0;
+  & i {
+    margin-right: 4px;
+  }
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+}
