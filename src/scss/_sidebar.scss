@@ -48,6 +48,8 @@
   padding-bottom: 37px;
 }
 .sidebar-title {
+  display: flex;
+  align-items: center;
   padding-bottom: 18px;
   padding-top: 40px;
   border-bottom: 1px solid #ececec;
@@ -102,4 +104,23 @@
   &:hover {
     color: #bababa;
   }
+}
+.follow {
+  margin-left: 4px;
+  color: #222;
+  text-transform: none;
+  &:hover {
+    color: #222;
+    background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
+    border-radius: 30px;
+  }
+}
+.social-link {
+  color: #222;
+  &:hover {
+    color: #222;
+  }
+}
+.sidebar-social {
+  padding-bottom: 20px;
 }
