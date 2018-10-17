@@ -15,7 +15,7 @@ body {
   color: #777;
   font-family: 'Playfair Display', serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.27px;
   text-decoration: none;
@@ -25,7 +25,8 @@ body {
   .nav-link:hover {
     border-bottom: 1px solid #777;
     padding-bottom: 2px;
-    color: #222; }
+    color: #222;
+    font-weight: 700; }
 
 .search {
   color: #777; }
@@ -188,7 +189,8 @@ body {
 .sidebar {
   box-shadow: 0 5px 27px rgba(0, 0, 0, 0.08);
   background-color: #fafafa;
-  padding: 43px 54px; }
+  padding: 43px 54px;
+  height: max-content; }
 
 .sidebar-block {
   padding-left: 40px;
@@ -303,6 +305,61 @@ body {
 
 .sidebar-social {
   padding-bottom: 20px; }
+
+.footer {
+  background-color: #f8f8f8;
+  margin-top: 65px;
+  padding-top: 75px; }
+
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer-link {
+  font-family: 'Playfair Display', serif;
+  color: #777;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 52px;
+  text-transform: uppercase;
+  letter-spacing: 0.24px; }
+  .footer-link:hover {
+    color: #222;
+    font-weight: 700; }
+
+.footer-search {
+  display: flex;
+  align-items: center; }
+
+.form-input {
+  font-family: 'Playfair Display', serif;
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  border: 1px solid #ececec;
+  background-color: #fff;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 14px; }
+
+.form-btn {
+  background-color: #d3c4a6;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  border: 0;
+  margin-left: -5px;
+  color: #fff; }
+
+.footer-text {
+  font-family: 'Playfair Display', serif;
+  color: #888;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.63px;
+  padding-bottom: 65px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
