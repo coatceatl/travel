@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 5px 27px rgba(0, 0, 0, 0.08);
+  margin-bottom: 65px;
 }
 .post-img {
   & img {
@@ -16,7 +17,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #d3c4a6;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 52px;
   text-transform: uppercase;
   letter-spacing: 0.63px;
