@@ -247,6 +247,7 @@ body {
   margin-bottom: 10px; }
 
 .sidebar-categories {
+  font-family: 'Playfair Display', serif;
   color: #777;
   font-size: 17px;
   font-weight: 400;
@@ -256,6 +257,33 @@ body {
     margin-right: 10px; }
   .sidebar-categories:last-child {
     margin-bottom: 20px; }
+
+.sidebar-popular {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .sidebar-popular:not(:first-child) {
+    border-top: 1px solid #ececec;
+    margin-top: 0;
+    padding-top: 20px; }
+  .sidebar-popular img {
+    margin-right: 15px; }
+
+.popular-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.59px; }
+
+.popular-author {
+  font-family: 'Playfair Display', serif;
+  color: #bababa;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 0.35px; }
+  .popular-author:hover {
+    color: #bababa; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
